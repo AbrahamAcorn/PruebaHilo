@@ -4,7 +4,7 @@ import java.util.Random;
 
 
 class Vector{
-	String respuestas[] = new String[100];
+	String respuestas[] = new String[10000000];
 	
 	public String[] Encuesta() {
 		Random aleatorio = new Random();
@@ -58,10 +58,10 @@ class Window extends JFrame implements Runnable{
 		scrollNo.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		add(scrollNo);
 		
-		barraSi = new JProgressBar(0,100);
+		barraSi = new JProgressBar(0,10000000);
 		barraSi.setForeground(new Color(125, 175, 125));
 		add(barraSi);
-		barraNo = new JProgressBar(0,100);
+		barraNo = new JProgressBar(0,10000000);
 		barraNo.setForeground(new Color(250, 126, 100));
 		add(barraNo);
 	}
