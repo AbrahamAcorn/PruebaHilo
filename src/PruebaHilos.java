@@ -80,7 +80,7 @@ class Window extends JFrame implements Runnable{
 		}
 		
 		//Thread hiloH = new Thread(new Histograma());
-		//hiloH.start();
+		//hiloH.start()
 		int num=0;
 		String s1[]=si.getText().split(",");
 		String []s2=no.getText().split(",");
